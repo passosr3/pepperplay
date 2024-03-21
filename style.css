@@ -754,13 +754,7 @@ footer {
     background: #fff;
   }
 
-  .heroButton:hover {
-    border-radius: 50px;
-    background: #e94600;
-    color: #fff;
-  }
-
-  .heroButton {
+    .heroButton {
     color: #000;
     font-family: Inter;
     font-size: 18px;
@@ -770,6 +764,14 @@ footer {
     cursor: pointer;
     z-index: 1;
   }
+  
+  .heroButton:hover {
+    border-radius: 50px;
+    background: #e94600;
+    color: #fff;
+  }
+
+
 
   .heroButton2:hover {
     color: #e94600;
