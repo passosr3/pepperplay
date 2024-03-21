@@ -760,11 +760,6 @@ footer {
     color: #fff;
   }
 
-  .buttonsContainer a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
-
   .heroButton {
     color: #000;
     font-family: Inter;
