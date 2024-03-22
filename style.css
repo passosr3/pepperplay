@@ -601,6 +601,7 @@ footer {
     padding-bottom: 30px;
     justify-content: center;
     align-items: center;
+    width: auto;
   }
 
   h1 {
@@ -651,18 +652,15 @@ footer {
   }
 
   header {
-    width: auto;
   }
 
   .navsup {
     display: flex;
     background: linear-gradient(94deg, #d30915 -7.67%, #e94600 47.05%);
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 30px;
-    max-width: auto;
-    margin: 0px;
+    max-width: 100vh;
   }
 
   .logo {
@@ -716,8 +714,7 @@ footer {
 
   .herotexts {
     margin-top: 10%;
-    flex-basis: 50%;
-    width: 550px;
+    width: 100%;
   }
 
   .herotexts h1 {
@@ -754,7 +751,13 @@ footer {
     background: #fff;
   }
 
-    .heroButton {
+  .heroButton:hover {
+    border-radius: 50px;
+    background: #e94600;
+    color: #fff;
+  }
+
+  .heroButton {
     color: #000;
     font-family: Inter;
     font-size: 18px;
@@ -764,14 +767,6 @@ footer {
     cursor: pointer;
     z-index: 1;
   }
-  
-  .heroButton:hover {
-    border-radius: 50px;
-    background: #e94600;
-    color: #fff;
-  }
-
-
 
   .heroButton2:hover {
     color: #e94600;
@@ -986,10 +981,12 @@ footer {
     flex-basis: 50%;
     margin-left: 10%;
     margin-right: 10%;
+    width: auto;
   }
 
   .appTextos h5 {
     display: flex;
+    width: auto;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -1105,14 +1102,13 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    padding: 90px;
-    margin-top: 80px;
+    padding-top: 90px;
     margin-bottom: 80px;
   }
 
   .forms h4 {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
     margin-left: 10px;
   }
 
@@ -1123,14 +1119,12 @@ footer {
     font-size: 40px;
     line-height: 60px;
     margin-top: 10%;
-    flex-basis: 50%;
-    width: auto;
+    width: 100%;
     margin: 10%;
   }
 
   .formTexts img {
     margin-top: 30px;
-    width: 50px;
   }
 
   .input-box {
@@ -1146,39 +1140,45 @@ footer {
   .SecLogos {
     display: flex;
     flex-direction: column;
-    display: flex;
-    height: auto;
     justify-content: center;
+    align-items: center;
+    height: auto;
     align-items: center;
   }
 
   .SecLogos h2 {
     font-size: 40px;
-    line-height: 60px;
-    flex-basis: 50%;
     width: auto;
-    margin: 40px;
-    line-height: 50px;
-    padding: auto;
+  }
+
+  .SecLogos img {
+    size: 10px;
   }
 
   .contLogos {
     width: auto;
-    margin-right: 40px;
+    margin: 20%;
   }
 
   .logoTodas {
     display: flex;
     flex-direction: row;
-    margin-left: 40px;
+  }
+
+  .logosLinha02 {
+    width: auto;
+    margin: auto;
   }
 
   footer {
     display: flex;
-    background: linear-gradient(94deg, #d30915 -7.67%, #e94600 47.05%);
-    height: 150px;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(94deg, #d30915 -7.67%, #e94600 47.05%);
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 100px;
+    width: auto;
   }
 }
